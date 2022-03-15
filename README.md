@@ -1,2 +1,2 @@
 # Calculadora-Semi_Cientifica
-Projeto para aula de desencolcimento de aplicativos
+Projeto para aula de desenvolvimento de aplicativos
