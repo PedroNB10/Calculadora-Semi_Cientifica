@@ -1,0 +1,79 @@
+/* CÓDIGO CSS PARA ESTILIZAR A PÁGINA HTML DA CALCULADORA */
+
+.calculadora {
+    margin: auto;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 370px;
+    background: rgb(29,33,253);
+    background: -moz-linear-gradient(90deg, rgba(29,33,253,1) 2%, rgba(35,63,253,1) 33%, rgba(35,61,253,1) 66%, rgba(29,33,253,1) 100%, rgba(69,226,252,1) 179%);
+    background: -webkit-linear-gradient(90deg, rgba(29,33,253,1) 2%, rgba(35,63,253,1) 33%, rgba(35,61,253,1) 66%, rgba(29,33,253,1) 100%, rgba(69,226,252,1) 179%);
+    background: linear-gradient(90deg, rgba(29,33,253,1) 2%, rgba(35,63,253,1) 33%, rgba(35,61,253,1) 66%, rgba(29,33,253,1) 100%, rgba(69,226,252,1) 179%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d21fd",endColorstr="#45e2fc",GradientType=1);
+    font-size: 20px;
+}
+.botao_calculadora {
+    background-color: #0BAEE6;
+    border:none;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.botao_calculadora:hover{
+    background-color: #091D8B;
+}
+.exibir_dados {
+    margin-left: 9px;
+    margin-top: 10px;
+    font-size: 40px;
+    width: 345px;
+    height: 50px;
+    text-align: right;   
+}
+.exibir_dados::placeholder{
+    color: black;
+}
+.nome-equipe{
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    text-align:center;
+}
+.msg-erro{
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 18px;
+    margin-left: 39%;
+
+}
+.botao_calculadora1 {
+    background-color: #0BAEE6;
+    border:none;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.botao_calculadora1:hover{
+    background-color: #091D8B;
+}
+
+.botao_calculadora2 {
+    background-color: #0BAEE6;
+    border:none;
+    color: white;
+    width: 130px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.botao_calculadora2:hover{
+    background-color: #091D8B;
+}
