@@ -16,7 +16,7 @@ function sendNum(digit){
        expressao_exibida = expressao_exibida + digit;
        expressao = expressao + digit;
        if(expressao[expressao.length-1]=='!'){
-              console.log(expressao[expressao.length-1])
+              
               expressao=''
        }
 
@@ -128,7 +128,7 @@ function sendNum(digit){
        if(expressao[0] == '0' && expressao.length>1){
               expressao_exibida = expressao_exibida.replace('0', '');
               expressao = expressao.replace('0', '');
-              console.log(expressao_exibida)
+            
        }
 
        document.getElementById('screen').placeholder = expressao_exibida;
@@ -150,7 +150,7 @@ function equalTo(){
        }
        expressao = resultado;
        expressao_exibida = resultado;
-       console.log(expressao)
+      
        if (Number.isInteger(expressao) == false){
            expressao = expressao.toFixed(2)
        }
@@ -185,15 +185,10 @@ function deletar_char(){
 
 
 
-       if(expressao[contador-2]=='2' && expressao[contador-1]=='*' && expressao[contador]=='*'){
-          
-              expressao= expressao.replace('**2','')
-              console.log(expressao)
-
-       }
+     
 
        if(expressao_exibida[expressao_exibida.length - 1] == '%'){
-              console.log("funcionou")
+            
               nova_expressao= expressao.replace('*0.01*', '');
               nova_expressao_exibida = expressao_exibida.replace(/.$/, '');
 
@@ -206,12 +201,12 @@ function deletar_char(){
               nova_expressao_exibida = expressao_exibida.replace(/.$/, '');
 
        }
-       console.log(expressao)
+       
        expressao=nova_expressao
        expressao_exibida=nova_expressao_exibida
-       console.log(expressao_exibida)
+     
        document.getElementById('screen').placeholder = expressao_exibida;
-       console.log(nova_expressao)
+       
 
      
 
